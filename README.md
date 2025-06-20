@@ -12,7 +12,14 @@ Este é um projeto desenvolvido com React + Vite para promover os serviços pers
 
 ## 📁 Estrutura do Projeto
 
-📦 Projeto de Extensão
+# Projeto de Extensão
+
+Este é um projeto React + Vite.
+
+## Estrutura do Projeto
+
+```plaintext
+📦 projeto-de-extensao
 ┣ 📂 node_modules
 ┣ 📂 public
 ┣ 📂 src
@@ -31,6 +38,7 @@ Este é um projeto desenvolvido com React + Vite para promover os serviços pers
 ┣ 📄 vite.config.js
 ┣ 📄 README.md
 ┗ 📄 .gitignore
+
 
 ---
 
