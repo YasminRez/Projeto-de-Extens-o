@@ -4,16 +4,31 @@ function Beneficios() {
             <h1> Benefícios do Serviço </h1>
             <div class="carrossel">
                 <div id="caixinha-beneficios"> 
-                    <p> lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem </p> 
+                    <p> Treine aonde quiser, com instruções claras, 
+                        com os recursos que tiver e de acordo
+                        com os seus objetivos. 
+                    </p> 
                 </div>
                 <div id="caixinha-beneficios"> 
-                    <p> lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem </p>
+                    <p>  Seja com aulas ao vivo, com
+                        a planilha de treino ou aulas presenciais
+                        , tenha acesso a uma nova maneira de
+                        vivenciar a atividade física.
+                        Seu objetivo é o meu.
+                    </p>
                 </div>
                 <div id="caixinha-beneficios"> 
-                    <p> lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem </p> 
+                    <p> Te ajudar a estabelecer uma rotina de
+                        saúde com os recursos que tiver, tempo
+                        otimizado em um atendimento
+                        personalizado.
+                    </p> 
                 </div>
                 <div id="caixinha-beneficios"> 
-                    <p> lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem </p> 
+                    <p> Não fique mais parado por falta de
+                        instrução e nem se sinta perdido em
+                        academia nunca mais!
+                    </p> 
                 </div>
             </div>
         </div>

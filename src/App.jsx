@@ -4,10 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Inicio from "./components/Inicio.jsx";
 import Beneficios from './components/Beneficios.jsx';
-import Diferenciais from './components/Diferenciais.jsx';
+import TipoDeServico from './components/TipoDeServico.jsx';
 import Apresentacao from './components/Apresentacao.jsx';
 import Depoimentos from './components/Depoimentos.jsx';
+import Formulario from './components/formulario.jsx';
 import Contato from './components/Contato.jsx';
+
+
+
 
 
 function App() {
@@ -17,9 +21,10 @@ function App() {
     <>
       <Inicio />
       <Beneficios />
-      <Diferenciais />
+      <TipoDeServico />
       <Apresentacao />
       <Depoimentos />
+      <Formulario />
       <Contato />
     </>
   )
