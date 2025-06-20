@@ -13,24 +13,24 @@ Este é um projeto desenvolvido com React + Vite para promover os serviços pers
 ## 📁 Estrutura do Projeto
 
 📦 Projeto de Extensão
-┣ 📂node_modules
-┣ 📂public
-┣ 📂src
-┃ ┣ 📂components
-┃ ┃ ┣ 📄Apresentacao.jsx
-┃ ┃ ┣ 📄Beneficios.jsx
-┃ ┃ ┣ 📄Contato.jsx
-┃ ┃ ┣ 📄Depoimentos.jsx
-┃ ┃ ┣ 📄Formulario.jsx
-┃ ┃ ┣ 📄Inicio.jsx
-┃ ┃ ┗ 📄TipoDeServico.jsx
-┃ ┣ 📄App.jsx
-┃ ┗ 📄main.jsx
-┣ 📄index.html
-┣ 📄package.json
-┣ 📄vite.config.js
-┣ 📄README.md
-┗ 📄.gitignore
+┣ 📂 node_modules
+┣ 📂 public
+┣ 📂 src
+┃ ┣ 📂 components
+┃ ┃ ┣ 📄 Apresentacao.jsx
+┃ ┃ ┣ 📄 Beneficios.jsx
+┃ ┃ ┣ 📄 Contato.jsx
+┃ ┃ ┣ 📄 Depoimentos.jsx
+┃ ┃ ┣ 📄 Formulario.jsx
+┃ ┃ ┣ 📄 Inicio.jsx
+┃ ┃ ┗ 📄 TipoDeServico.jsx
+┃ ┣ 📄 App.jsx
+┃ ┗ 📄 main.jsx
+┣ 📄 index.html
+┣ 📄 package.json
+┣ 📄 vite.config.js
+┣ 📄 README.md
+┗ 📄 .gitignore
 
 ---
 
