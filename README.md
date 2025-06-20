@@ -1,12 +1,57 @@
-# React + Vite
+# 💪 Site da Personal Trainer Raquel Oliveira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido com React + Vite para promover os serviços personalizados de treino da profissional de Educação Física **Raquel Oliveira**. O site apresenta informações sobre os tipos de serviço, benefícios, depoimentos, formulário de contato e integração com WhatsApp.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/) – biblioteca principal para construção da interface
+- [Vite](https://vitejs.dev/) – bundler moderno e rápido para desenvolvimento
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) – linguagem utilizada no projeto
+- [HTML/CSS](https://developer.mozilla.org/pt-BR/docs/Web/HTML) – estruturação e estilização
+- [ESLint](https://eslint.org/) – padronização do código durante o desenvolvimento
 
-## Expanding the ESLint configuration
+## 📁 Estrutura do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📦 Projeto de Extensão
+┣ 📂node_modules
+┣ 📂public
+┣ 📂src
+┃ ┣ 📂components
+┃ ┃ ┣ 📄Apresentacao.jsx
+┃ ┃ ┣ 📄Beneficios.jsx
+┃ ┃ ┣ 📄Contato.jsx
+┃ ┃ ┣ 📄Depoimentos.jsx
+┃ ┃ ┣ 📄Formulario.jsx
+┃ ┃ ┣ 📄Inicio.jsx
+┃ ┃ ┗ 📄TipoDeServico.jsx
+┃ ┣ 📄App.jsx
+┃ ┗ 📄main.jsx
+┣ 📄index.html
+┣ 📄package.json
+┣ 📄vite.config.js
+┣ 📄README.md
+┗ 📄.gitignore
+
+---
+
+## 🖥️ Como rodar o projeto localmente
+
+1. **Pré-requisitos**:
+   - Ter o [Node.js](https://nodejs.org/) instalado na máquina.
+
+2. **Clone o repositório**:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+Instale as dependências:
+npm install
+
+Inicie o servidor de desenvolvimento:
+npm run dev
+
+Acesse no navegador:
+http://localhost:5173
+
+
