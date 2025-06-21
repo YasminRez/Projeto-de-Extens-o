@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #root {
-  max-width: 1280px;
+  width: 100%; /* ocupa toda a largura disponível */
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0;
 }
 
 .logo {
@@ -11,6 +12,7 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -41,11 +43,14 @@
   color: #888;
 }
 
+#inicio {
+  background-image: url('src/assets/img-fundo-apresentacao.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
 
-
-
-
-/*sessao final uma base mas é para arrumar*/
 #contato {
   padding: 20px;
   background-color: #f0f0f0;
@@ -68,3 +73,62 @@
   font-weight: bold;
 }
 
+.letra-verde {
+  color: #9DC08B;
+}
+
+.letra-laranja {
+  color: #DF6D14;
+}
+
+.conteudo{
+  position: absolute;
+  left: 320px;
+  width: 500px;
+}
+
+.botao-contate-agora{
+  position: absolute;
+  margin-top: 10px;
+  left: 0;
+  width: 180px;
+  color: white;
+  background-color: #DF6D14;
+  z-index: 2;
+}
+
+.container-principal {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  padding-top: 10%;
+}
+
+.container-foto {
+  position: relative;
+  width:  50%;
+  height: 400px;
+}
+
+.foto-raquel{
+  position: absolute;
+  left: 900px;
+  width: 350px;
+  z-index: 2;
+}
+
+#texto-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+#contorno-foto-1 {
+  position: absolute;
+  left: 920px;
+  top: -20px;
+  width: 350px;
+  height: 390px;
+  border: solid 1px #DF6D14;
+  border-radius: 10px;
+  z-index: 1;
+}

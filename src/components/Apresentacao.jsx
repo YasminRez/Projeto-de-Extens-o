@@ -1,10 +1,6 @@
 function Apresentacao() {
   return (
     <div id="apresentacao">
-      <div id="imagem-apresentacao">
-        {/* <img src="caminho/da-imagem.jpg" alt="Descrição da imagem" /> */}
-      </div>
-
       <h2>Quem sou eu? Raquel Oliveira — treino de qualidade!</h2>
       <p>
         Olá! Me chamo Raquel Oliveira e sou profissional de Educação Física há 13 anos, apaixonada pelo desenvolvimento e aperfeiçoamento humano.
@@ -17,7 +13,6 @@ function Apresentacao() {
         Alunos espalhados por aí são minha paixão. Atendo atualmente alunos dos
         EUA, Portugal, Irlanda e de vários continhos do nosso Brasil.
         Será um prazer fazer parte da sua trajetória de saúde. 
-
       </p>
     </div>
   );
