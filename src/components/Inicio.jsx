@@ -21,6 +21,7 @@ function Inicio() {
           </a>
         </div>
         <div class="container-foto"> 
+          <div id="contorno-foto-1"></div>
           <img src="src/assets/raquel-personal.png" alt="Personal Trainer Raquel" class="foto-raquel"></img>
         </div>
       </div>

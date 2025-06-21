@@ -8,12 +8,15 @@ import Apresentacao from './components/Apresentacao.jsx';
 import Depoimentos from './components/Depoimentos.jsx';
 import Formulario from './components/formulario.jsx';
 import Contato from './components/Contato.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Header />
       <Inicio />
       <Beneficios />
       <TipoDeServico />
@@ -21,6 +24,7 @@ function App() {
       <Depoimentos />
       <Formulario />
       <Contato />
+      <Footer />
     </>
   )
 }
