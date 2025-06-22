@@ -7,7 +7,6 @@ import TipoDeServico from './components/TipoDeServico.jsx';
 import Apresentacao from './components/Apresentacao.jsx';
 import Depoimentos from './components/Depoimentos.jsx';
 import Formulario from './components/formulario.jsx';
-import Contato from './components/Contato.jsx';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -23,7 +22,6 @@ function App() {
       <Apresentacao />
       <Depoimentos />
       <Formulario />
-      <Contato />
       <Footer />
     </>
   )

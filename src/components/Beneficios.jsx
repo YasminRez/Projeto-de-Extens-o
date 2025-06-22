@@ -1,8 +1,11 @@
 function Beneficios() {
     return (
        <div id="beneficios">
-            <h1> Benefícios do Serviço </h1>
-            <div class="carrossel">
+            <div class="container-titulo">
+                <img src="src/assets/icone-estrela.svg" alt="Ícone de estrela" id="icone-estrela"/>
+                <h1> Benefícios do Serviço </h1>
+            </div>
+            <div class="container-beneficios">
                 <div id="caixinha-beneficios"> 
                     <p> Treine aonde quiser, com instruções claras, 
                         com os recursos que tiver e de acordo
