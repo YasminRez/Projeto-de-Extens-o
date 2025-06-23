@@ -8,7 +8,7 @@ import Apresentacao from './components/Apresentacao.jsx';
 import Depoimentos from './components/Depoimentos.jsx';
 import Formulario from './components/formulario.jsx';
 import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
+import Contato from './components/Contato.jsx'; 
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,9 +22,9 @@ function App() {
       <Apresentacao />
       <Depoimentos />
       <Formulario />
-      <Footer />
+      <Contato /> 
     </>
   )
 }
 
-export default App
+export default App;
