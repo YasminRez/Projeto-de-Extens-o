@@ -3,7 +3,7 @@ function Apresentacao() {
     <div id="apresentacao">
       <div class="container-foto-2"> 
         <div id="contorno-foto-2"></div>
-        <img src="src/assets/raquel-personal.png" alt="Personal Trainer Raquel" class="foto-raquel-2"></img>
+        <img src="src/assets/raquel-personal2.png" alt="Personal Trainer Raquel" class="foto-raquel-2"></img>
       </div>
       <div class="conteudo-apresentacao">
         <h2>Quem sou eu? <span class="letra-verde"> Raquel Oliveira — treino de qualidade! </span></h2>
